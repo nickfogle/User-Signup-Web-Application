@@ -1,3 +1,4 @@
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -64,4 +65,96 @@ a {
 fieldset {
 	border:0;
 	padding:0; margin:0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
+
+body {font-family: 'Lato', Calibri, Arial, sans-serif;
+color: #FFF;
+background: #47A3DA;
+}
+
+fieldset {
+border: none;
+}
+
+input {
+border: 3px solid #FFF;
+background: rgba(0, 0, 0, 0);
+line-height: 1.5;
+font-size: 1.4em;
+padding: 5px 10px;
+}
+
+input:focus {
+outline: none;
+border: 3px solid #10689A;    
+}
+
+input,textarea,select {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 1.4em;
+	padding: 5px 10px;
+	color: #fff;
+	display: block;
+	width: 60%;
+	background: rgba(0, 0, 0, 0);
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.7s 0.7s ease; 
+  opacity: 0;
+  color: #10689A;
+}
+#userList table {
+    background: #10689A;
+    border: 4px solid #fff;
+}
+#userList table th {
+background: #10689A;
+padding: 9px 62px;
+}
+
+#userList table td {
+    font-size: 1.1em;
+}
+a {
+color: #10689A;    
+}
+
+#userInfo p {
+padding: 20px;
+border: 5px solid #FFF;
+font-size: 1.2em;
+}
+
+button#btnAddUser {
+background: #10689A;
+border: none;
+color: #FFF;
+width: auto;
+cursor: pointer;
+text-transform: uppercase;
+display: inline-block;
+padding: 15px 30px;
+font-size: 1.1em;
+border-radius: 2px;
+letter-spacing: 1px;
+margin-left: 24%;
+}
+button#btnAddUser:hover {
+background: #1478B1
 }

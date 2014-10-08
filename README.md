@@ -3,7 +3,7 @@
 
 ## Basic Sign-up form using MongoDB, Node.js, Express, and Jade.
 
-# Dependencies
+### Dependencies
   * express: ~4.0.0
   * static-favicon: ~1.0.0
   * morgan: ~1.0.0
